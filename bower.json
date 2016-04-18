@@ -1,0 +1,26 @@
+{
+  "name": "quantalife",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "font-awesome": "~4.4.0",
+    "jquery.scrollTo": "~2.1.2",
+    "modernizr": "~2.8.1",
+    "typed.js": "~1.1.1",
+    "waypoints": "~4.0.0",
+    "skrollr": "~0.6.30"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "assets/stylesheets/_bootstrap.scss",
+        "assets/fonts/bootstrap/*",
+        "assets/javascripts/bootstrap.js"
+      ]
+    }
+  },
+  "devDependencies": {
+    "chai": "~3.2.0",
+    "mocha": "~2.2.5"
+  }
+}

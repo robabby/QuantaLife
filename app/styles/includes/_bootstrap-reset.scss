@@ -1,0 +1,12 @@
+header {
+  .nav-pills > li + li {
+    margin-left: 0;
+  }
+  .nav-pills > li > a {
+    border-radius: 0px;
+  }
+}
+.jumbotron,
+.well {
+  border-radius:0 !important;
+}
